@@ -1,0 +1,339 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+header {
+  background-color: white;
+  margin: 0 auto 0 auto;
+  width: 1300px;
+}
+.contenido {
+  width: 1300px;
+  margin: 0 auto 0 auto;
+  padding: 20px 50px 0 50px;
+}
+/*Para todos los menus y enlaces*/
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.menu li {
+  list-style: none;
+  text-align: -webkit-match-parent;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*Menu top 1*/
+
+.logomini {
+  width: 30px;
+}
+.menu-top1 ul li a {
+  color: grey;
+  margin-bottom: 20px;
+}
+.menu-top1 ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-top1 ul li {
+  padding: 0 10px 0 10px;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.menu-top1 li:last-child {
+  border-left: 1px solid grey;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+main {
+  display: block;
+}
+
+/*Menu barra 2*/
+
+.logo img {
+  padding: 10px;
+  width: 200px;
+}
+
+.fila {
+  display: flex;
+  border-bottom: 3px solid #fff10e;
+}
+
+.menu-top2 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-top2 li {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-top2 li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.menu-top2 li {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu li {
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style-type: disc;
+}
+.menu-top2 li:hover {
+  background-color: yellow;
+}
+
+/*main bloque top3*/
+
+.fondo {
+  background-image: url(https://images.hdqwalls.com/wallpapers/octarender-cinema-abstract-render-4k-1r.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.content {
+  background-color: #f3f2f2;
+  padding: 10px;
+}
+
+.menuprinci {
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menutop3 li a {
+  color: #0076ec;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.menuprinci li {
+  width: 120px;
+  margin: 0 5px 0 5px;
+  background-color: #d3d3d3;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.filatop3 li:hover {
+  background-color: #0076ec;
+}
+.filatop3texto li:hover a {
+  color: white;
+}
+/*buscador*/
+.buscador {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.colorbusca {
+  color: #0076ec;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*top-peliculas*/
+.buscablan {
+  background-color: white;
+  color: rgb(0, 118, 236);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.buscadorblanco {
+  display: inline-block;
+  font-family: Oswald, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.buscatop3 a:hover {
+  background-color: #0076ec;
+}
+.buscatop3texto a:hover {
+  color: white;
+}
+
+/*A-Z*/
+.buscaAZ {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.botonAZ {
+  background-color: #0076ec;
+  color: white;
+}
+
+/*fichas*/
+
+.fichas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fila {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ficha {
+  width: 250px;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0px 1px 20px #d5d5d5;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+}
+div {
+  display: block;
+}
+/*titulos fichas h3*/
+.ficha h3 {
+  margin: 10px 0 10px 0;
+  color: #0076ec;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/*estrellasiconos*/
+
+.fa-star {
+  margin-top: 10px;
+  color: #fff10e;
+}
+
+/*footer*/
+
+div {
+  display: block;
+}
+
+.footercontenido {
+  width: 100%;
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
+}
+.iconos ul {
+  width: 600px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.iconos i {
+  font-size: 50px;
+  color: #004987;
+}
+
+.filabottom {
+  display: flex;
+}
+
+.menu-final {
+  padding: 50px;
+}
+
+.tipo {
+  width: 100%;
+}
+
+h2 {
+  color: #004987;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.tipo ul li {
+  list-style: none;
+  line-height: 1.7em;
+  font-weight: bold;
+}
+
+.tipo ul li a {
+  text-decoration: none;
+  color: #808080;
+}
+.lista-bottom {
+  padding: 0;
+}
+.botonarriba {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.fa-circle-arrow-up {
+  font-size: 50px;
+  color: #004987;
+}
