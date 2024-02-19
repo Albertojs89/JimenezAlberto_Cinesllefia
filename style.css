@@ -1,0 +1,252 @@
+body {
+  color: aqua;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(13, 13, 43);
+  width: 1300px;
+  margin: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 80px;
+
+  padding: 60px 240px 60px 40px;
+}
+header {
+  padding: 30px 0 30px 0;
+}
+.contenidomenu1 {
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconologo a img {
+  width: 160px;
+  display: flex;
+}
+/* MENUT TOP1 */
+.menutop1 {
+  margin-bottom: 20px;
+}
+
+.menutop1 ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0 30px 0 30px;
+}
+
+.menutop1 li a {
+  list-style: none;
+  text-decoration: none;
+  color: aqua;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sesion ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  font-size: 25px;
+}
+
+/* BANNER */
+
+.menuimagen {
+  background-image: url("imagenes/imagenbanner.jpeg"); /* Imagen de fondo del enlace */
+  background-size: 100%;
+  padding: 240px 200px;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.menuimagen a {
+  text-decoration: none;
+  color: aqua;
+}
+.menuizquierda {
+  position: absolute;
+  left: 10px; /* Distancia desde el borde izquierdo */
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover;
+  padding: 100px;
+}
+
+.boton a {
+  padding: 10px 20px;
+  background-color: rgb(110, 110, 236);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.boton a:hover {
+  background-color: darkblue;
+}
+
+.boton {
+  margin-top: 40px;
+}
+
+/* MENU 2 fichas */
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+}
+
+.fichas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.ficha {
+  width: 250px;
+  padding: 20px 20px 10px 20px;
+  margin: 20px;
+  font-family: "Oswald", sans-serif;
+}
+div {
+  display: block;
+}
+
+.ficha img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h3 {
+  display: block;
+  font-size: 1.8em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.ficha i {
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: rgb(110, 110, 236);
+  border: none;
+  border-radius: 10%;
+}
+
+/* MENU 3 INFO */
+
+.contenidomenu3 {
+  background-image: url(imagenes/fondo.jpg);
+  background-size: 100%;
+  padding: 240px 70px 200px;
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.texto {
+  margin-right: 50px;
+  display: block;
+  padding: 20px 2px 20px 20px;
+  border: none;
+}
+.texto p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.enlacepremium a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(128, 128, 187);
+}
+
+/* Menu 4 */
+
+.contenidomenu4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fichatarjeta {
+  display: block;
+  width: 300px;
+  box-shadow: 0px 1px 20px #e7d467;
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+  margin: 0px 60px 0px 60px;
+}
+
+.fichatarjeta img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fichatarjeta p {
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  font-size: 17px;
+  font-weight: 100;
+  margin: 20px;
+}
+
+.ficha i {
+  position: absolute;
+}
+
+/* footermenu */
+
+.contenidofooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloque {
+  justify-content: space-between;
+  margin: 50px;
+  padding: 30px 30px 30px 10px;
+}
+.bloque ul,
+li {
+  text-align: left;
+}
+
+.sindeco {
+  list-style: none;
+  text-decoration: none;
+  font-size: 17px;
+}
